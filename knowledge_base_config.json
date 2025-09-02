@@ -1,0 +1,79 @@
+{
+  "sources": {
+    "json_data": {
+      "enabled": true,
+      "file_path": "./knowledge_base.json",
+      "description": "Structured company information, FAQs, and pricing"
+    },
+    "pdf_documents": {
+      "enabled": true,
+      "directory": "./documents/pdfs/",
+      "description": "PDF documents like manuals, guides, and reports",
+      "supported_extensions": [".pdf"],
+      "max_file_size_mb": 50,
+      "indexing": {
+        "enabled": true,
+        "update_interval_hours": 24
+      }
+    },
+    "website_links": {
+      "enabled": true,
+      "sources": [
+        {
+          "name": "Company Website",
+          "url": "https://yourcompany.com",
+          "description": "Main company website",
+          "scraping": {
+            "enabled": true,
+            "max_pages": 100,
+            "update_interval_hours": 12
+          }
+        },
+        {
+          "name": "Documentation Site",
+          "url": "https://docs.yourcompany.com",
+          "description": "Technical documentation and guides",
+          "scraping": {
+            "enabled": true,
+            "max_pages": 200,
+            "update_interval_hours": 6
+          }
+        },
+        {
+          "name": "Blog",
+          "url": "https://blog.yourcompany.com",
+          "description": "Company blog and articles",
+          "scraping": {
+            "enabled": true,
+            "max_pages": 50,
+            "update_interval_hours": 24
+          }
+        }
+      ]
+    },
+    "markdown_files": {
+      "enabled": true,
+      "directory": "./documents/markdown/",
+      "description": "Markdown documentation files",
+      "supported_extensions": [".md", ".markdown"]
+    },
+    "text_files": {
+      "enabled": true,
+      "directory": "./documents/text/",
+      "description": "Plain text documents",
+      "supported_extensions": [".txt", ".text"]
+    }
+  },
+  "search": {
+    "max_results": 5,
+    "relevance_threshold": 0.3,
+    "enable_semantic_search": true,
+    "enable_keyword_search": true
+  },
+  "indexing": {
+    "auto_update": true,
+    "update_interval_hours": 6,
+    "max_concurrent_requests": 5,
+    "request_delay_ms": 1000
+  }
+} 
