@@ -1,0 +1,40 @@
+{
+    "company_info": [
+      {
+        "topic": "about_us",
+        "content": "We are a technology company focused on providing innovative solutions to help businesses grow and succeed in the digital age."
+      },
+      {
+        "topic": "services",
+        "content": "Our services include web development, mobile app development, AI integration, and digital marketing solutions."
+      },
+      {
+        "topic": "contact",
+        "content": "You can reach us at contact@yourcompany.com or call us at +1-555-0123. Our office hours are Monday to Friday, 9 AM to 6 PM EST."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What are your business hours?",
+        "answer": "We are open Monday to Friday from 9 AM to 6 PM EST. We also offer 24/7 online support through our website."
+      },
+      {
+        "question": "Do you offer free consultations?",
+        "answer": "Yes, we offer free 30-minute consultations for all new clients to discuss your project requirements and how we can help."
+      },
+      {
+        "question": "What technologies do you work with?",
+        "answer": "We work with a wide range of technologies including React, Node.js, Python, AI/ML frameworks, cloud platforms, and mobile development tools."
+      }
+    ],
+    "pricing": [
+      {
+        "service": "web_development",
+        "content": "Our web development packages start from $2,999 for basic websites and go up to $15,000+ for complex enterprise solutions."
+      },
+      {
+        "service": "mobile_apps",
+        "content": "Mobile app development starts from $5,999 for simple apps and ranges up to $25,000+ for feature-rich applications."
+      }
+    ]
+  }
